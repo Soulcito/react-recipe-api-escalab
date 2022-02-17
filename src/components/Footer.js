@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Footer = () => {
-  return (
-    <div>Hello am Footer</div>
-  )
-}
+const Footer = () => (
+  <footer>
+    <p>&copy; { new Date().getFullYear()} - Felipe Hinojosa</p>
+  </footer>
+)
 
 export default Footer
